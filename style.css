@@ -1,0 +1,87 @@
+body {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+}
+/* text */
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+span {
+  color: orangered;
+}
+/* button */
+a {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(orange, red);
+  padding: 10px 50px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+/* image */
+#banner-img,
+#about-img {
+  width: 75%;
+}
+#about-container {
+  background-image: url(/media/bg-shape.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+/* blog */
+#blog-info {
+  text-align: center;
+  padding: 0 200px;
+}
+.card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 50px 100px 0 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* layout */
+section {
+  padding: 50px;
+  margin-bottom: 100px;
+}
+.flex-container {
+  display: flex;
+}
+.half-div-left {
+  width: 50%;
+  text-align: left;
+}
+.half-div-right {
+  width: 50%;
+  text-align: right;
+}
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+/* data section */
+#cards-container {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.data-card {
+  margin: 0 100px;
+}
+/* footer */
+footer {
+  height: 200px;
+  color: white;
+  background-color: black;
+  padding-top: 70px;
+  text-align: center;
+}
